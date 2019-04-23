@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-apr-2019, 0:23:06
+    Author     : daan-
+*/
+*{
+    padding: 0px;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.view_button{
+    -fx-background-color: transparent;
+    -fx-font-family: "Arial";
+    -fx-font-size: 23px;
+    -fx-font-weight: regular;
+}
+.view_button:hover{
+    -fx-background-color: #767676;
+    -fx-font:'arial',sans-serif,bold;
+}
+.nav_user_pane{
+    -fx-background-image: url("bg1.jpg");
+    
+}
+

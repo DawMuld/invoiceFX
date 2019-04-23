@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane layoutY="84.0" prefHeight="725.0" prefWidth="1200.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <content>
+            <FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" prefWidth="1180.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <VBox prefHeight="1000.0" prefWidth="800.0" spacing="32.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <FlowPane alignment="CENTER" prefHeight="104.0" prefWidth="800.0">
+                           <children>
+                              <Label text="Bedrijfsgegevens" textFill="#202124">
+                                 <font>
+                                    <Font name="Raleway" size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </FlowPane>
+                        <FlowPane alignment="CENTER" prefHeight="44.0" prefWidth="800.0">
+                           <children>
+                              <Label text="Algemene informatie over uw onderneming" textFill="#202124">
+                                 <font>
+                                    <Font name="Raleway" size="24.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </FlowPane>
+                        <FlowPane alignment="CENTER" prefHeight="329.0" prefWidth="800.0">
+                           <children>
+                              <GridPane prefHeight="284.0" prefWidth="730.0" style="-fx-border-color: #DADCE0; -fx-border-radius: 15px;">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="204.0" minWidth="10.0" prefWidth="204.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="546.0" minWidth="10.0" prefWidth="468.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="265.0" minWidth="0.0" prefWidth="58.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="21.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="22.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="23.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="24.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label text="Bedrijfsgegevens" textFill="#202124" GridPane.columnSpan="2147483647" GridPane.rowSpan="2">
+                                       <font>
+                                          <Font name="Raleway" size="28.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="NAAM" textFill="#808387" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Oswald Medium" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="BTW-NUMMER" textFill="#808387" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Oswald Medium" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="KVK-NUMMER" textFill="#808387" GridPane.rowIndex="7">
+                                       <font>
+                                          <Font name="Oswald Medium" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="IBAN" textFill="#808387" GridPane.rowIndex="9">
+                                       <font>
+                                          <Font name="Oswald Medium" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="Chimneytotaal" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Roboto Thin" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
+                                    <Label text="1480    21    724    B03" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Roboto Thin" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="Chimneytotaal" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                       <font>
+                                          <Font name="Roboto Thin" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="NL74 ABNA 05233 9768" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                                       <font>
+                                          <Font name="Roboto Thin" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
+                                    <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="6" />
+                                    <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="8" />
+                                    <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Roboto Thin" size="20.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Roboto Thin" size="20.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                                       <font>
+                                          <Font name="Roboto Thin" size="20.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                                       <font>
+                                          <Font name="Roboto Thin" size="20.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <FlowPane.margin>
+                                    <Insets />
+                                 </FlowPane.margin>
+                                 <padding>
+                                    <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                                 </padding>
+                              </GridPane>
+                           </children>
+                        </FlowPane>
+                        <FlowPane alignment="CENTER" prefHeight="329.0" prefWidth="800.0">
+                           <children>
+                              <FlowPane alignment="CENTER" prefHeight="329.0" prefWidth="800.0">
+                                 <children>
+                                    <GridPane prefHeight="284.0" prefWidth="730.0" style="-fx-border-color: #DADCE0; -fx-border-radius: 15px;">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="204.0" minWidth="10.0" prefWidth="204.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="546.0" minWidth="10.0" prefWidth="468.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="265.0" minWidth="0.0" prefWidth="58.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="21.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="22.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="23.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="24.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="Adresgegevens" textFill="#202124" GridPane.columnSpan="2147483647" GridPane.rowSpan="2">
+                                             <font>
+                                                <Font name="Raleway" size="28.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="STRAAT + NR." textFill="#808387" GridPane.rowIndex="3">
+                                             <font>
+                                                <Font name="Oswald Medium" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="POSTCODE" textFill="#808387" GridPane.rowIndex="5">
+                                             <font>
+                                                <Font name="Oswald Medium" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="WOONPLAATS" textFill="#808387" GridPane.rowIndex="7">
+                                             <font>
+                                                <Font name="Oswald Medium" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="LAND" textFill="#808387" GridPane.rowIndex="9">
+                                             <font>
+                                                <Font name="Oswald Medium" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="Titaniumlaan 82 " GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                             <font>
+                                                <Font name="Roboto Thin" size="22.0" />
+                                             </font>
+                                          </Label>
+                                          <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
+                                          <Label text="5221 CK" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                             <font>
+                                                <Font name="Roboto Thin" size="22.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="'s-Hertogenbosch" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                             <font>
+                                                <Font name="Roboto Thin" size="22.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="Nederland" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                                             <font>
+                                                <Font name="Roboto Thin" size="22.0" />
+                                             </font>
+                                          </Label>
+                                          <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
+                                          <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="6" />
+                                          <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="8" />
+                                          <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                             <font>
+                                                <Font name="Roboto Thin" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                             <font>
+                                                <Font name="Roboto Thin" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                                             <font>
+                                                <Font name="Roboto Thin" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                                             <font>
+                                                <Font name="Roboto Thin" size="20.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                       <FlowPane.margin>
+                                          <Insets />
+                                       </FlowPane.margin>
+                                       <padding>
+                                          <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                                       </padding>
+                                    </GridPane>
+                                 </children>
+                              </FlowPane>
+                              <GridPane prefHeight="200.0" prefWidth="730.0" style="-fx-border-color: #DADCE0; -fx-border-radius: 15px;">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="204.0" minWidth="10.0" prefWidth="204.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="546.0" minWidth="10.0" prefWidth="468.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="265.0" minWidth="0.0" prefWidth="58.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="21.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="22.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Label text="Contactgegevens" textFill="#202124" GridPane.columnSpan="2147483647" GridPane.rowSpan="2">
+                                       <font>
+                                          <Font name="Raleway" size="28.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="TELEFOON" textFill="#808387" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Oswald Medium" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="EMAIL" textFill="#808387" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Oswald Medium" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="+31 6 22 77 13 83" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Roboto Thin" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
+                                    <Label text="-" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Roboto Thin" size="22.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
+                                    <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Roboto Thin" size="20.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" text="&gt;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Roboto Thin" size="20.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <FlowPane.margin>
+                                    <Insets />
+                                 </FlowPane.margin>
+                                 <padding>
+                                    <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                                 </padding>
+                              </GridPane>
+                           </children>
+                        </FlowPane>
+                        <FlowPane alignment="TOP_RIGHT" minHeight="400.0" prefHeight="400.0" prefWidth="200.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Opslaan" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="64.0" left="64.0" right="64.0" top="64.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </FlowPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

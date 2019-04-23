@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane  alignment="CENTER_RIGHT" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.gui.views.editor.InvoiceEditorController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <FlowPane alignment="CENTER" layoutX="22.0" layoutY="34.0" prefHeight="329.0" prefWidth="800.0">
+               <children>
+                  <GridPane prefHeight="284.0" prefWidth="651.0" style="-fx-border-color: #DADCE0; -fx-border-radius: 15px;">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="204.0" minWidth="10.0" prefWidth="204.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="546.0" minWidth="10.0" prefWidth="385.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="265.0" minWidth="0.0" prefWidth="66.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="21.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="22.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="23.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="24.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label text="Overzicht" textFill="#202124" GridPane.columnSpan="2147483647" GridPane.rowSpan="2">
+                           <font>
+                              <Font name="Raleway" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="FACTUURNUMMER" textFill="#808387" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="Oswald Medium" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="FACTUUR DATUM" textFill="#808387" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="Oswald Medium" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="CREDITEUR" textFill="#808387" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="Oswald Medium" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="DEBITEUR" textFill="#808387" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="Oswald Medium" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="-" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="Roboto Thin" size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
+                        <Label text="-" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="Roboto Thin" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label text="-" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="Roboto Thin" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label text="-" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="Roboto Thin" size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
+                        <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="6" />
+                        <Separator prefHeight="0.0" prefWidth="438.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="8" />
+                        <Button fx:id="editInvoiceNumberButton" mnemonicParsing="false" onAction="#handleEditInvoiceNumber" style="-fx-background-color: TRANSPARENT;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <font>
+                              <Font name="Roboto Thin" size="20.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../ICONS/edit.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                           <font>
+                              <Font name="Roboto Thin" size="20.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fx:id="editInvoiceDateButton" fitHeight="32.0" fitWidth="32.0" onDragDetected="#handleEditInvoiceDate" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../ICONS/edit.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="editCreditorButton" mnemonicParsing="false" onAction="#handleEditCreditor" style="-fx-background-color: TRANSPARENT;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                           <font>
+                              <Font name="Roboto Thin" size="20.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../ICONS/edit.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="editDebtorButton" mnemonicParsing="false" onAction="#handleEditDebtor" style="-fx-background-color: TRANSPARENT;" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                           <font>
+                              <Font name="Roboto Thin" size="20.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../ICONS/edit.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                     <FlowPane.margin>
+                        <Insets />
+                     </FlowPane.margin>
+                     <padding>
+                        <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                     </padding>
+                  </GridPane>
+               </children>
+            </FlowPane>
+         </children>
+      </AnchorPane>
+      <BorderPane fx:id="editorDrawer" maxWidth="320.0" minWidth="320.0" prefWidth="320.0" translateX="300.0">
+         <center>
+            <VBox style="-fx-background-color: #E74C3C;" />
+         </center>
+         <left>
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" orientation="VERTICAL" prefHeight="200.0" prefWidth="20.0" style="-fx-background-color: #C0392B;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#toggleDrawer" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="." textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#toggleDrawer" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="." textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#toggleDrawer" rotate="87.9" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="." textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Bold" size="18.0" />
+                     </font>
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </Button>
+               </children>
+            </FlowPane>
+         </left>
+      </BorderPane>
+   </children>
+</StackPane>
